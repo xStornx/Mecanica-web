@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset= "utf-8"/>
+        <title>Storn</title>
+        <meta name="description" content="pagina para matematicas" />
+        <meta name="author" content="Storn" />
+        <meta name="keyboards" content="Storn, matematicas, fisica,UTN", />
+        
+        <link rel="stylesheet" href="style-register.css">
+    </head>
+    <body>
+        <header class="titulo">
+            <h1>Ingenieria Mecanica 2023 UTN</h1> 
+            <a href="https://frgp.cvg.utn.edu.ar/"><img src="images/utn.png"/></a>
+        </header>
+        <main>    
+            <form>
+                <label for="email">Correo electronico: </label>
+                <input type="email" id="email" class="input-patron" required placeholder="email@dominio.com">
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" required placeholder="Escribe una opinion de la pagina.No es obligatorio"></textarea>
+                <div>
+                    <fieldset>
+                    <legend>Como le gustaria que lo contactemos?</legend>
+    
+                    <label for="radio email"><input type="radio" name="contacto" 
+                    value="email" id="radio email">Email</label>
+    
+                    <label for="radio telefono"><input type="radio" name="contacto"
+                    value="telefono" id="radio telefono">Telefono</label>
+    
+                    <label for="radio whatsapp"><input type="radio" name="contacto"
+                    value="whatsapp" id="radio whatsapp" checked>Whatsapp</label>
+                    </fieldset>
+                    <div>
+                        <p>A que curso pertenece?</p>
+                        <select>
+                            <option>17-11</option>
+                            <option>17-12</option>
+                        </select>
+                    </div>
+                    <label class="checkbox"><input type="checkbox" checked>Le gustaria recibir novedades sobre la pagina?</label>
+                </div>
+                <input type="submit" value="Resgistrarse" class="enviar">
+            </form>  
+        </main>
+        <footer class="pie">
+            <h3>Ingenieria Mecanica 2023</h3>
+        </footer>
+    </body>
+</html>

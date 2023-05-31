@@ -1,0 +1,134 @@
+.titulo{
+    background: rgb(66, 90, 196); color: white;border: 5px groove black
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.articulo_1, .articulo_2{
+    border: 3px groove black;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transition: 1s all;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+    margin: auto;
+    padding: 50px;
+}
+
+body{
+    margin: auto;
+    padding: auto;
+    margin: auto;
+    background-color: #dfe6e9;
+}
+/* ---------------------------------------NAV-BAR-------------------------------------------------------------------*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li{
+    border: 2px solid red;
+    border-radius: 10px;
+    display: inline-block;
+    font: bold 18px sans-serif;
+    height: auto;
+    margin-top: 20px;    
+    animation: changeBorder 10s infinite;
+    cursor: pointer;
+    filter: drop-shadow(8px 8px 4px black);
+}
+.ayuda{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.teoria{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.practicas{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@keyframes changeBorder {
+    0% { border-color: #FF4C4C; }      /* Rojo vibrante */
+    25% { border-color: #FFD34C; }     /* Amarillo brillante */
+    50% { border-color: #4CFF89; }     /* Verde vivo */
+    75% { border-color: #4C9BFF; }     /* Azul intenso */
+    100% { border-color: #D34CFF; }    /* Morado llamativo */
+  }
+
+a:hover{
+    color: rgb(167, 198, 255);
+    text-decoration:wavy;
+}
+ /*------------------------------------------------------------------------------*/ 
+  
+
+aside, header,nav,section{
+    display: block;
+}
+
+section{
+    margin: 20px;
+    width: 70%;
+    float: left;
+}
+
+aside{
+    width: 20%;
+    float: Left;
+    background:#a29bfe;
+    border-radius: 10px;
+    border: black 2px groove;
+    margin: 20px;
+    transition: 1s all;
+    filter: drop-shadow(8px 8px 4px black);
+}
+
+.pie{
+    clear: both;
+    text-align: center;
+    background: rgb(66, 90, 196); color: white;border: 8px black
+}
+
+.articulo_1:hover, .articulo_2:hover{
+    border-color:  #a29bfe;
+    transform: scale(1.025);
+}
+
+.articulo_1:active, .articulo_2:active{
+    border-color: crimson;
+}
+
+aside:hover{
+    border-color: #ff7675;
+    transform: scale(1.025);
+}
+
+nav ul {
+    padding: 10px;
+    margin-top: 0.1%; 
+    text-align: right; 
+}
+

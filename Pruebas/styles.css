@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    height: 50px;
+    border: 1px solid red;
+    animation: changeBorder 10s infinite;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  @keyframes changeBorder {
+    0% { border-color: #FF0000; }
+    25% { border-color: #00FF00; }
+    50% { border-color: #0000FF; }
+    75% { border-color: #FFFF00; }
+    100% { border-color: #FF00FF; }
+  }
+  
